@@ -1,9 +1,6 @@
 all: LlamaNode.o Llama.o Driver.o 
 	g++ -Wall LlamaNode.cpp Llama.cpp Driver.cpp -o driver.out
 
-OvCoInt.o: OvCoInt.cpp
-	g++ -Wall -c OvCoInt.cpp
-
 LlamaNode.o: LlamaNode.cpp
 	g++ -Wall -c LlamaNode.cpp
 
