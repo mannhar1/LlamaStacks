@@ -1,5 +1,6 @@
 # LlamaStacks
 Concepts in use: 
+linked list,
 dynamic memory allocation, 
 pointer manipulation, 
 exception handling, 
